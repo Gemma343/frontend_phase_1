@@ -1,0 +1,15 @@
+@use "sass:color";
+
+$primary-color: #007bff;
+
+header {
+  background-color: $primary-color;
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+footer {
+  background-color: color.adjust($primary-color, $lightness: -20%);
+
+}
